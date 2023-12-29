@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   align-items: flex-start;
-  background-color: rgb(221, 220, 220);
+  background-color: #161616;
 }
 
 .flex-presentation {
@@ -36,13 +36,20 @@
 }
 
 #navtext_tomv {
-  width: 100%;
+  width: 20%;
   margin: 1%;
   text-align: left;
   /* line-height: 50px; */
   font-size: 30px;
   align-items: flex-start;
 }
+
+/* DESACTIVER LE SURLIGNAGE  */
+#navtext_tomv a {
+  color: white;
+text-decoration: none; /* Désactiver le soulignement */
+}
+
 
 #navtext_mail {
   width: 20%;
