@@ -70,6 +70,7 @@ text-decoration: none; /* Désactiver le soulignement */
   align-items: flex-start;
   margin-left: 80%;
   margin-right: 0%;
+  font-family: 'Imprint MT Shadow', sans-serif;
 }
 
 /* DESACTIVER LE SURLIGNAGE  */
@@ -85,6 +86,7 @@ text-decoration: none; /* Désactiver le soulignement */
   /* line-height: 50px; */
   font-size: 20px;
   align-items: flex-start;
+  font-family: 'Imprint MT Shadow', sans-serif;
 }
 
 /* DESACTIVER LE SURLIGNAGE  */
