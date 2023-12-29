@@ -1,4 +1,13 @@
-  /* Change the link color to #111 (black) on hover */
+/* Ajout des polices */
+@font-face {
+  font-family: 'Imprint MT Shadow';
+  src: url('./assets/polices/Imprint\ MT\ Shadow\ Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
   }
@@ -42,6 +51,7 @@
   /* line-height: 50px; */
   font-size: 30px;
   align-items: flex-start;
+  font-family: 'Imprint MT Shadow', sans-serif;
 }
 
 /* DESACTIVER LE SURLIGNAGE  */
