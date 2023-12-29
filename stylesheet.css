@@ -45,13 +45,14 @@
 }
 
 #navtext_tomv {
-  width: 20%;
-  margin: 1%;
-  text-align: left;
-  /* line-height: 50px; */
-  font-size: 30px;
+  width: 280px;
+  text-align: center;
+  font-size: 80px;
   align-items: flex-start;
+  margin-left: 15px;
   font-family: 'Imprint MT Shadow', sans-serif;
+  display: flex;
+  align-items: center;
 }
 
 /* DESACTIVER LE SURLIGNAGE  */
@@ -60,33 +61,56 @@
 text-decoration: none; /* Désactiver le soulignement */
 }
 
+/* width: 120px;
+font-size: 30px;
+align-items: flex-start;
+font-family: 'Imprint MT Shadow', sans-serif;
+display: flex;
+text-align: center; */
 
 #navtext_mail {
-  width: 20%;
-  margin: 1%;
+  width: 250px;
   text-align: center;
-  /* line-height: 50px; */
-  font-size: 20px;
+  font-size: 35px;
   align-items: flex-start;
-  margin-left: 80%;
-  margin-right: 0%;
+  margin-left: 80px;
   font-family: 'Imprint MT Shadow', sans-serif;
+  display: flex;
+  align-items: center;
 }
 
 /* DESACTIVER LE SURLIGNAGE  */
 #navtext_mail a {
   color: white;
+  margin-left: 10px;
 text-decoration: none; /* Désactiver le soulignement */
 }
 
-#navtext_pdf {
-  width: 10%;
+#navtext_mail img {
+  width: 80px;
+  height: auto;
+  margin-left: 10px; /* Ajout d'une marge à gauche pour l'espace entre le texte et l'image */
+}
+
+/* #navimage_mail {
+  display: flex;
+  width: 100000px;
   margin: 1%;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+} */
+
+#navtext_pdf {
+  width: 50px;
   text-align: center;
   /* line-height: 50px; */
   font-size: 20px;
   align-items: flex-start;
   font-family: 'Imprint MT Shadow', sans-serif;
+  margin-left: 50px;
+  display: flex;
+  text-align: center;
 }
 
 /* DESACTIVER LE SURLIGNAGE  */
