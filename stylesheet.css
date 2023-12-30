@@ -79,11 +79,13 @@ text-decoration: none; /* Désactiver le soulignement */
 @media (max-width: 800px) {
   #navtext_tomv {
     font-size: 30px;
-    margin-right: auto;
-    margin-left: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
     align-items: center;
+    text-align: center;
   }
 }
+
 /* ############### Navbar - MAIL ################## */
 
 #navtext_mail {
@@ -124,7 +126,7 @@ text-decoration: none; /* Désactiver le soulignement */
   #navtext_mail img {
     width: 30px;
     height: auto;
-    margin-left: 10px; /* Ajout d'une marge à gauche pour l'espace entre le texte et l'image */
+    margin-left: 0px; /* Ajout d'une marge à gauche pour l'espace entre le texte et l'image */
     text-align: center;
     margin-top: 5px;
   }
@@ -165,12 +167,12 @@ text-decoration: none; /* Désactiver le soulignement */
 @media (max-width: 800px) {
   #navtext_pdf {
       font-size: 20px;
-      width: 200px;
+      width: 110px;
   }
   #navtext_pdf img {
       width: 40px;
       height: auto;
-      margin-left: 10px;
+      margin-left: 0px;
       text-align: center;
       margin-top: 0px;
   }
