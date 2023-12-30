@@ -63,6 +63,10 @@
 text-decoration: none; /* Désactiver le soulignement */
 }
 
+#navtext_tomv > .outline {
+  color: white;
+}
+
 /* ############### Navbar - MAIL ################## */
 
 #navtext_mail {
@@ -87,6 +91,12 @@ text-decoration: none; /* Désactiver le soulignement */
   width: 80px;
   height: auto;
   margin-left: 10px; /* Ajout d'une marge à gauche pour l'espace entre le texte et l'image */
+  text-align: center;
+  margin-top: 5px;
+}
+
+#navtext_mail > .outline {
+  color: white;
 }
 
 /* ############### Navbar - PDF ################## */
@@ -113,7 +123,15 @@ text-decoration: none; /* Désactiver le soulignement */
   width: 90px;
   height: auto;
   margin-left: 10px; /* Ajout d'une marge à gauche pour l'espace entre le texte et l'image */
+  text-align: center;
+  margin-top: 0px;
 }
+
+#navtext_pdf > .outline {
+  color: white;
+}
+
+/* ############### Présentation - Main ################## */
 
 #presentation {
   text-align: left;
