@@ -133,11 +133,11 @@ text-decoration: none; /* Désactiver le soulignement */
 /* ############### Navbar - PDF ################## */
 
 #navtext_pdf {
-  width: 240px;
+  width: 215px;
   text-align: center;
   font-size: 35px;
   margin-left: 0px;
-  margin-right: 15px;
+  margin-right: 0px;
   font-family: 'Imprint MT Shadow', sans-serif;
   display: flex;
   align-items: center;
