@@ -93,21 +93,27 @@ text-decoration: none; /* Désactiver le soulignement */
 }
 
 #navtext_pdf {
-  width: 50px;
+  width: 250px;
   text-align: center;
-  /* line-height: 50px; */
-  font-size: 20px;
+  font-size: 35px;
   align-items: flex-start;
+  margin-left: 80px;
   font-family: 'Imprint MT Shadow', sans-serif;
-  margin-left: 50px;
   display: flex;
-  text-align: center;
+  align-items: center;
 }
 
 /* DESACTIVER LE SURLIGNAGE  */
 #navtext_pdf a {
   color: white;
-text-decoration: none; /* Désactiver le soulignement */
+  margin-left: 10px;
+  text-decoration: none; /* Désactiver le soulignement */
+}
+
+#navtext_pdf img {
+  width: 90px;
+  height: auto;
+  margin-left: 10px; /* Ajout d'une marge à gauche pour l'espace entre le texte et l'image */
 }
 
 #presentation {
