@@ -17,6 +17,13 @@
     outline: 1px solid red;
   }
 
+
+/*
+###########################################################################
+#####                            NAVBAR                               #####
+###########################################################################
+*/
+
 .flex-container {
   background-color: #161616;
   align-items: center;
@@ -32,26 +39,6 @@
     justify-content: center;
     width: 100%;
   }
-}
-
-.flex-presentation {
-  border-style: solid;
-  border-radius: 20px;
-  overflow: hidden;
-  width: auto;
-}
-
-#flex-presentation-logo {
-  padding: 20px;
-  width: 7%;
-}
-
-#flex-presentation-info {
-  margin-left: 10%;
-  padding-top: 0%;
-  width: 10%;
-  transform:translatex(5%) translatey(-335%);
-  display: flex;
 }
 
 /* ############### Navbar - TOMV ################## */
@@ -189,6 +176,14 @@ text-decoration: none; /* Désactiver le soulignement */
   }
 }
 
+
+/*
+###########################################################################
+#####                          PRESENTATION                           #####
+###########################################################################
+*/
+
+
 /* ############### Présentation - Main ################## */
 
 #presentation {
@@ -196,6 +191,34 @@ text-decoration: none; /* Désactiver le soulignement */
   text-decoration: underline;
   flex: 1;
 }
+
+.flex-presentation {
+  border-style: solid;
+  border-radius: 20px;
+  overflow: hidden;
+  width: auto;
+}
+
+#flex-presentation-logo {
+  padding: 20px;
+  width: 7%;
+}
+
+#flex-presentation-info {
+  margin-left: 10%;
+  padding-top: 0%;
+  width: 10%;
+  transform:translatex(5%) translatey(-335%);
+  display: flex;
+}
+
+
+/*
+###########################################################################
+#####                            FOOTER                               #####
+###########################################################################
+*/
+
 
 .footer {
   /* background-color: #7474742a; */
