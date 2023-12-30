@@ -132,6 +132,17 @@ text-decoration: none; /* Désactiver le soulignement */
   }
 }
 
+/* ############### Navbar - Séparation - PHONE ONLY ################## */
+
+@media (max-width: 800px) {
+  .separator {
+    height: 1px;
+    background-color: white;
+    width: 20%; /* La largeur de la séparation est à 100% */
+    margin: 10px 0; /* Espacement au-dessus et en dessous de la séparation */
+  }
+}
+
 /* ############### Navbar - PDF ################## */
 
 #navtext_pdf {
