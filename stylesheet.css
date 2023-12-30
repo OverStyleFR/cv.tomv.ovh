@@ -90,7 +90,7 @@ text-decoration: none; /* Désactiver le soulignement */
   width: 230px;
   text-align: center;
   font-size: 35px;
-  margin-left: auto;
+  margin-left: 0px;
   margin-right: 10px;
   font-family: 'Imprint MT Shadow', sans-serif;
   display: flex;
@@ -120,8 +120,6 @@ text-decoration: none; /* Désactiver le soulignement */
   #navtext_mail {
     font-size: 15px;
     width: 100px;
-    margin-right: auto; /* Retirez la marge à droite en mode téléphone */
-    margin-left: 0px;
   }
   #navtext_mail img {
     width: 30px;
