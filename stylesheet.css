@@ -44,6 +44,8 @@
   display: flex;
 }
 
+/* ############### Navbar - TOMV ################## */
+
 #navtext_tomv {
   width: 280px;
   text-align: center;
@@ -61,19 +63,14 @@
 text-decoration: none; /* Désactiver le soulignement */
 }
 
-/* width: 120px;
-font-size: 30px;
-align-items: flex-start;
-font-family: 'Imprint MT Shadow', sans-serif;
-display: flex;
-text-align: center; */
+/* ############### Navbar - MAIL ################## */
 
 #navtext_mail {
-  width: 250px;
+  width: 230px;
   text-align: center;
   font-size: 35px;
   align-items: flex-start;
-  margin-left: 80px;
+  margin-left: 1750px;
   font-family: 'Imprint MT Shadow', sans-serif;
   display: flex;
   align-items: center;
@@ -92,12 +89,14 @@ text-decoration: none; /* Désactiver le soulignement */
   margin-left: 10px; /* Ajout d'une marge à gauche pour l'espace entre le texte et l'image */
 }
 
+/* ############### Navbar - PDF ################## */
+
 #navtext_pdf {
-  width: 250px;
+  width: 240px;
   text-align: center;
   font-size: 35px;
   align-items: flex-start;
-  margin-left: 80px;
+  margin-left: 0px;
   font-family: 'Imprint MT Shadow', sans-serif;
   display: flex;
   align-items: center;
