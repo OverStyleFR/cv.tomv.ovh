@@ -92,15 +92,6 @@ text-decoration: none; /* Désactiver le soulignement */
   margin-left: 10px; /* Ajout d'une marge à gauche pour l'espace entre le texte et l'image */
 }
 
-/* #navimage_mail {
-  display: flex;
-  width: 100000px;
-  margin: 1%;
-  text-align: center;
-  margin-right: 0px;
-  margin-left: 0px;
-} */
-
 #navtext_pdf {
   width: 50px;
   text-align: center;
