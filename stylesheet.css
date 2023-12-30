@@ -22,11 +22,15 @@
   align-items: center;
   display: flex;
   width: auto;
+  flex-direction: row;
 }
 
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }
 
@@ -56,7 +60,6 @@
   width: auto;
   text-align: center;
   font-size: 80px;
-  align-items: center;
   margin-left: 15px;
   margin-right: auto;
   font-family: 'Imprint MT Shadow', sans-serif;
@@ -73,14 +76,22 @@ text-decoration: none; /* Désactiver le soulignement */
   color: white;
 }
 
+@media (max-width: 800px) {
+  #navtext_tomv {
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 15px;
+    align-items: center;
+  }
+}
 /* ############### Navbar - MAIL ################## */
 
 #navtext_mail {
   width: 230px;
   text-align: center;
   font-size: 35px;
-  align-items: flex-start;
   margin-left: auto;
+  margin-right: 10px;
   font-family: 'Imprint MT Shadow', sans-serif;
   display: flex;
   align-items: center;
@@ -105,14 +116,30 @@ text-decoration: none; /* Désactiver le soulignement */
   color: white;
 }
 
+@media (max-width: 800px) {
+  #navtext_mail {
+    font-size: 15px;
+    width: 100px;
+    margin-right: auto; /* Retirez la marge à droite en mode téléphone */
+    margin-left: 0px;
+  }
+  #navtext_mail img {
+    width: 30px;
+    height: auto;
+    margin-left: 10px; /* Ajout d'une marge à gauche pour l'espace entre le texte et l'image */
+    text-align: center;
+    margin-top: 5px;
+  }
+}
+
 /* ############### Navbar - PDF ################## */
 
 #navtext_pdf {
   width: 240px;
   text-align: center;
   font-size: 35px;
-  align-items: flex-start;
-  margin-left: auto;
+  margin-left: 0px;
+  margin-right: 15px;
   font-family: 'Imprint MT Shadow', sans-serif;
   display: flex;
   align-items: center;
@@ -135,6 +162,20 @@ text-decoration: none; /* Désactiver le soulignement */
 
 #navtext_pdf > .outline {
   color: white;
+}
+
+@media (max-width: 800px) {
+  #navtext_pdf {
+      font-size: 20px;
+      width: 200px;
+  }
+  #navtext_pdf img {
+      width: 40px;
+      height: auto;
+      margin-left: 10px;
+      text-align: center;
+      margin-top: 0px;
+  }
 }
 
 /* ############### Présentation - Main ################## */
