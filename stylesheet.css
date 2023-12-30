@@ -18,10 +18,16 @@
   }
 
 .flex-container {
-  display: flex;
-  align-items: center;
-  align-items: flex-start;
   background-color: #161616;
+  align-items: center;
+  display: flex;
+  width: auto;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
 
 .flex-presentation {
@@ -47,13 +53,13 @@
 /* ############### Navbar - TOMV ################## */
 
 #navtext_tomv {
-  width: 280px;
+  width: auto;
   text-align: center;
   font-size: 80px;
-  align-items: flex-start;
+  align-items: center;
   margin-left: 15px;
+  margin-right: auto;
   font-family: 'Imprint MT Shadow', sans-serif;
-  display: flex;
   align-items: center;
 }
 
@@ -74,7 +80,7 @@ text-decoration: none; /* Désactiver le soulignement */
   text-align: center;
   font-size: 35px;
   align-items: flex-start;
-  margin-left: 1750px;
+  margin-left: auto;
   font-family: 'Imprint MT Shadow', sans-serif;
   display: flex;
   align-items: center;
@@ -106,7 +112,7 @@ text-decoration: none; /* Désactiver le soulignement */
   text-align: center;
   font-size: 35px;
   align-items: flex-start;
-  margin-left: 0px;
+  margin-left: auto;
   font-family: 'Imprint MT Shadow', sans-serif;
   display: flex;
   align-items: center;
