@@ -196,19 +196,15 @@ text-decoration: none; /* Désactiver le soulignement */
   border-style: solid;
   border-radius: 20px;
   overflow: hidden;
-  width: auto;
 }
 
 #flex-presentation-logo {
   padding: 20px;
-  width: 7%;
 }
 
 #flex-presentation-info {
   margin-left: 10%;
   padding-top: 0%;
-  width: 10%;
-  transform:translatex(5%) translatey(-335%);
   display: flex;
 }
 
